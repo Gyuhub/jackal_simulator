@@ -4,6 +4,8 @@
   <arg name="z" default="1" />
   <arg name="yaw" default="0" />
   <arg name="joystick" default="true" />
+  <!-- used for creating a virtual model for gazebo -->
+  <arg name="gazebo" default="true" />
 
   <!-- Configuration of Jackal which you would like to simulate.
        See jackal_description for details. -->
@@ -12,6 +14,7 @@
   <!-- Load Jackal's description, controllers, and teleop nodes. -->
   <include file="$(find jackal_description)/launch/description.launch">
     <arg name="config" value="$(arg config)" />
+    <arg name="gazebo" value="$(arg gazebo)" />
   </include>
   <include file="$(find jackal_control)/launch/control.launch" />
   <include file="$(find jackal_control)/launch/teleop.launch">
