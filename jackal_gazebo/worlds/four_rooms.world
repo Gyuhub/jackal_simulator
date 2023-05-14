@@ -87,57 +87,12 @@
       <heading_deg>0</heading_deg>
     </spherical_coordinates>
     <model name='FourRooms'>
-      <pose>0 0 0 0 -0 0</pose>
-      <link name='Wall_0'>
-        <collision name='Wall_0_Collision'>
-          <geometry>
-            <box>
-              <size>12.3 0.1 1</size>
-            </box>
-          </geometry>
-          <pose>0 0 0.5 0 -0 0</pose>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <visual name='Wall_0_Visual'>
-          <pose>0 0 0.5 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>12.3 0.1 1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/CeilingTiled</name>
-            </script>
-            <ambient>1 0.764706 0.305882 1</ambient>
-          </material>
-          <meta>
-            <layer>0</layer>
-          </meta>
-        </visual>
-        <pose>0 -6.1 0 0 -0 0</pose>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
+      <pose>5 5 0 0 -0 0</pose>
       <link name='Wall_10'>
         <collision name='Wall_10_Collision'>
           <geometry>
             <box>
-              <size>2.2 0.1 1</size>
+              <size>3 0.1 1</size>
             </box>
           </geometry>
           <pose>0 0 0.5 0 -0 0</pose>
@@ -159,7 +114,7 @@
           <pose>0 0 0.5 0 -0 0</pose>
           <geometry>
             <box>
-              <size>2.2 0.1 1</size>
+              <size>3 0.1 1</size>
             </box>
           </geometry>
           <material>
@@ -167,13 +122,13 @@
               <uri>file://media/materials/scripts/gazebo.material</uri>
               <name>Gazebo/CeilingTiled</name>
             </script>
-            <ambient>1 0.764706 0.305882 1</ambient>
+            <ambient>0.435294 0.796078 0.67451 1</ambient>
           </material>
           <meta>
             <layer>0</layer>
           </meta>
         </visual>
-        <pose>0 1.05 0 0 -0 -1.5708</pose>
+        <pose>0 -0.5 0 0 -0 1.5708</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
@@ -182,7 +137,7 @@
         <collision name='Wall_12_Collision'>
           <geometry>
             <box>
-              <size>1.1 0.1 1</size>
+              <size>2.15 0.1 1</size>
             </box>
           </geometry>
           <pose>0 0 0.5 0 -0 0</pose>
@@ -204,7 +159,7 @@
           <pose>0 0 0.5 0 -0 0</pose>
           <geometry>
             <box>
-              <size>1.1 0.1 1</size>
+              <size>2.15 0.1 1</size>
             </box>
           </geometry>
           <material>
@@ -212,13 +167,13 @@
               <uri>file://media/materials/scripts/gazebo.material</uri>
               <name>Gazebo/CeilingTiled</name>
             </script>
-            <ambient>1 0.764706 0.305882 1</ambient>
+            <ambient>0.435294 0.796078 0.67451 1</ambient>
           </material>
           <meta>
             <layer>0</layer>
           </meta>
         </visual>
-        <pose>-5.6 0 0 0 -0 0</pose>
+        <pose>0 4.075 0 0 -0 1.5708</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
@@ -227,7 +182,7 @@
         <collision name='Wall_14_Collision'>
           <geometry>
             <box>
-              <size>3.2 0.1 1</size>
+              <size>1.15 0.1 1</size>
             </box>
           </geometry>
           <pose>0 0 0.5 0 -0 0</pose>
@@ -249,7 +204,7 @@
           <pose>0 0 0.5 0 -0 0</pose>
           <geometry>
             <box>
-              <size>3.2 0.1 1</size>
+              <size>1.15 0.1 1</size>
             </box>
           </geometry>
           <material>
@@ -257,13 +212,13 @@
               <uri>file://media/materials/scripts/gazebo.material</uri>
               <name>Gazebo/CeilingTiled</name>
             </script>
-            <ambient>1 0.764706 0.305882 1</ambient>
+            <ambient>0.435294 0.796078 0.67451 1</ambient>
           </material>
           <meta>
             <layer>0</layer>
           </meta>
         </visual>
-        <pose>-1.55 0 0 0 -0 0</pose>
+        <pose>-4.575 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
@@ -272,7 +227,7 @@
         <collision name='Wall_16_Collision'>
           <geometry>
             <box>
-              <size>3.2 0.1 1</size>
+              <size>4 0.1 1</size>
             </box>
           </geometry>
           <pose>0 0 0.5 0 -0 0</pose>
@@ -294,7 +249,7 @@
           <pose>0 0 0.5 0 -0 0</pose>
           <geometry>
             <box>
-              <size>3.2 0.1 1</size>
+              <size>4 0.1 1</size>
             </box>
           </geometry>
           <material>
@@ -302,13 +257,13 @@
               <uri>file://media/materials/scripts/gazebo.material</uri>
               <name>Gazebo/CeilingTiled</name>
             </script>
-            <ambient>1 0.764706 0.305882 1</ambient>
+            <ambient>0.435294 0.796078 0.67451 1</ambient>
           </material>
           <meta>
             <layer>0</layer>
           </meta>
         </visual>
-        <pose>0 -1.55 0 0 -0 -1.5708</pose>
+        <pose>0 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
@@ -317,7 +272,7 @@
         <collision name='Wall_18_Collision'>
           <geometry>
             <box>
-              <size>1.1 0.1 1</size>
+              <size>1.15 0.1 1</size>
             </box>
           </geometry>
           <pose>0 0 0.5 0 -0 0</pose>
@@ -339,7 +294,7 @@
           <pose>0 0 0.5 0 -0 0</pose>
           <geometry>
             <box>
-              <size>1.1 0.1 1</size>
+              <size>1.15 0.1 1</size>
             </box>
           </geometry>
           <material>
@@ -347,22 +302,22 @@
               <uri>file://media/materials/scripts/gazebo.material</uri>
               <name>Gazebo/CeilingTiled</name>
             </script>
-            <ambient>1 0.764706 0.305882 1</ambient>
+            <ambient>0.435294 0.796078 0.67451 1</ambient>
           </material>
           <meta>
             <layer>0</layer>
           </meta>
         </visual>
-        <pose>0 -5.6 0 0 -0 1.5708</pose>
+        <pose>4.575 0 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <link name='Wall_2'>
-        <collision name='Wall_2_Collision'>
+      <link name='Wall_3'>
+        <collision name='Wall_3_Collision'>
           <geometry>
             <box>
-              <size>12.3 0.1 1</size>
+              <size>10.3 0.1 1</size>
             </box>
           </geometry>
           <pose>0 0 0.5 0 -0 0</pose>
@@ -380,11 +335,11 @@
             </friction>
           </surface>
         </collision>
-        <visual name='Wall_2_Visual'>
+        <visual name='Wall_3_Visual'>
           <pose>0 0 0.5 0 -0 0</pose>
           <geometry>
             <box>
-              <size>12.3 0.1 1</size>
+              <size>10.3 0.1 1</size>
             </box>
           </geometry>
           <material>
@@ -392,103 +347,13 @@
               <uri>file://media/materials/scripts/gazebo.material</uri>
               <name>Gazebo/CeilingTiled</name>
             </script>
-            <ambient>1 0.764706 0.305882 1</ambient>
+            <ambient>0.435294 0.796078 0.67451 1</ambient>
           </material>
           <meta>
             <layer>0</layer>
           </meta>
         </visual>
-        <pose>-6.1 0 0 0 -0 1.5708</pose>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <link name='Wall_20'>
-        <collision name='Wall_20_Collision'>
-          <geometry>
-            <box>
-              <size>2.2 0.1 1</size>
-            </box>
-          </geometry>
-          <pose>0 0 0.5 0 -0 0</pose>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <visual name='Wall_20_Visual'>
-          <pose>0 0 0.5 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>2.2 0.1 1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/CeilingTiled</name>
-            </script>
-            <ambient>1 0.764706 0.305882 1</ambient>
-          </material>
-          <meta>
-            <layer>0</layer>
-          </meta>
-        </visual>
-        <pose>1.05 0 0 0 -0 0</pose>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <link name='Wall_22'>
-        <collision name='Wall_22_Collision'>
-          <geometry>
-            <box>
-              <size>2.1 0.1 1</size>
-            </box>
-          </geometry>
-          <pose>0 0 0.5 0 -0 0</pose>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <visual name='Wall_22_Visual'>
-          <pose>0 0 0.5 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>2.1 0.1 1</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/CeilingTiled</name>
-            </script>
-            <ambient>1 0.764706 0.305882 1</ambient>
-          </material>
-          <meta>
-            <layer>0</layer>
-          </meta>
-        </visual>
-        <pose>5.1 0 0 0 -0 3.14159</pose>
+        <pose>0 -5.1 0 0 -0 0</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
@@ -497,7 +362,7 @@
         <collision name='Wall_4_Collision'>
           <geometry>
             <box>
-              <size>12.3 0.1 1</size>
+              <size>10.3 0.1 1</size>
             </box>
           </geometry>
           <pose>0 0 0.5 0 -0 0</pose>
@@ -519,7 +384,7 @@
           <pose>0 0 0.5 0 -0 0</pose>
           <geometry>
             <box>
-              <size>12.3 0.1 1</size>
+              <size>10.3 0.1 1</size>
             </box>
           </geometry>
           <material>
@@ -527,13 +392,58 @@
               <uri>file://media/materials/scripts/gazebo.material</uri>
               <name>Gazebo/CeilingTiled</name>
             </script>
-            <ambient>1 0.764706 0.305882 1</ambient>
+            <ambient>0.435294 0.796078 0.67451 1</ambient>
           </material>
           <meta>
             <layer>0</layer>
           </meta>
         </visual>
-        <pose>0 6.1 0 0 -0 0</pose>
+        <pose>5.1 0 0 0 -0 1.5708</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <link name='Wall_5'>
+        <collision name='Wall_5_Collision'>
+          <geometry>
+            <box>
+              <size>10.3 0.1 1</size>
+            </box>
+          </geometry>
+          <pose>0 0 0.5 0 -0 0</pose>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='Wall_5_Visual'>
+          <pose>0 0 0.5 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>10.3 0.1 1</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/CeilingTiled</name>
+            </script>
+            <ambient>0.435294 0.796078 0.67451 1</ambient>
+          </material>
+          <meta>
+            <layer>0</layer>
+          </meta>
+        </visual>
+        <pose>0 5.1 0 0 -0 3.14159</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
@@ -542,7 +452,7 @@
         <collision name='Wall_6_Collision'>
           <geometry>
             <box>
-              <size>12.3 0.1 1</size>
+              <size>10.3 0.1 1</size>
             </box>
           </geometry>
           <pose>0 0 0.5 0 -0 0</pose>
@@ -564,7 +474,7 @@
           <pose>0 0 0.5 0 -0 0</pose>
           <geometry>
             <box>
-              <size>12.3 0.1 1</size>
+              <size>10.3 0.1 1</size>
             </box>
           </geometry>
           <material>
@@ -572,13 +482,13 @@
               <uri>file://media/materials/scripts/gazebo.material</uri>
               <name>Gazebo/CeilingTiled</name>
             </script>
-            <ambient>1 0.764706 0.305882 1</ambient>
+            <ambient>0.435294 0.796078 0.67451 1</ambient>
           </material>
           <meta>
             <layer>0</layer>
           </meta>
         </visual>
-        <pose>6.1 0 0 0 -0 -1.5708</pose>
+        <pose>-5.1 0 0 0 -0 -1.5708</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
@@ -587,7 +497,7 @@
         <collision name='Wall_8_Collision'>
           <geometry>
             <box>
-              <size>2.1 0.1 1</size>
+              <size>1.15 0.1 1</size>
             </box>
           </geometry>
           <pose>0 0 0.5 0 -0 0</pose>
@@ -609,7 +519,7 @@
           <pose>0 0 0.5 0 -0 0</pose>
           <geometry>
             <box>
-              <size>2.1 0.1 1</size>
+              <size>1.15 0.1 1</size>
             </box>
           </geometry>
           <material>
@@ -617,13 +527,13 @@
               <uri>file://media/materials/scripts/gazebo.material</uri>
               <name>Gazebo/CeilingTiled</name>
             </script>
-            <ambient>1 0.764706 0.305882 1</ambient>
+            <ambient>0.435294 0.796078 0.67451 1</ambient>
           </material>
           <meta>
             <layer>0</layer>
           </meta>
         </visual>
-        <pose>0 5.1 0 0 -0 -1.5708</pose>
+        <pose>0 -4.575 0 0 -0 1.5708</pose>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
@@ -631,99 +541,83 @@
       <static>1</static>
     </model>
     <state world_name='default'>
-      <sim_time>224 724000000</sim_time>
-      <real_time>42 863899638</real_time>
-      <wall_time>1683805259 92291379</wall_time>
-      <iterations>42649</iterations>
+      <sim_time>52 750000000</sim_time>
+      <real_time>53 137253068</real_time>
+      <wall_time>1684041144 565885922</wall_time>
+      <iterations>52750</iterations>
       <model name='FourRooms'>
-        <pose>0 0 0 0 -0 0</pose>
+        <pose>5 5 0 0 -0 0</pose>
         <scale>1 1 1</scale>
-        <link name='Wall_0'>
-          <pose>0 -6.1 0 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
         <link name='Wall_10'>
-          <pose>0 1.05 0 0 0 -1.5708</pose>
+          <pose>5 4.5 0 0 -0 1.5708</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='Wall_12'>
-          <pose>-5.6 0 0 0 -0 0</pose>
+          <pose>5 9.075 0 0 -0 1.5708</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='Wall_14'>
-          <pose>-1.55 0 0 0 -0 0</pose>
+          <pose>0.425 5 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='Wall_16'>
-          <pose>0 -1.55 0 0 0 -1.5708</pose>
+          <pose>5 5 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='Wall_18'>
-          <pose>0 -5.6 0 0 -0 1.5708</pose>
+          <pose>9.575 5 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
-        <link name='Wall_2'>
-          <pose>-6.1 0 0 0 -0 1.5708</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-        <link name='Wall_20'>
-          <pose>1.05 0 0 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-        <link name='Wall_22'>
-          <pose>5.1 0 0 0 -0 3.14159</pose>
+        <link name='Wall_3'>
+          <pose>5 -0.1 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='Wall_4'>
-          <pose>0 6.1 0 0 -0 0</pose>
+          <pose>10.1 5 0 0 -0 1.5708</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+        <link name='Wall_5'>
+          <pose>5 10.1 0 0 -0 3.14159</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='Wall_6'>
-          <pose>6.1 0 0 0 0 -1.5708</pose>
+          <pose>-0.1 5 0 0 0 -1.5708</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='Wall_8'>
-          <pose>0 5.1 0 0 0 -1.5708</pose>
+          <pose>5 0.425 0 0 -0 1.5708</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='Goal'>
-        <pose>3 3 0 0 -0 0</pose>
+        <pose>7.5 7.5 0 0 -0 0</pose>
         <scale>1 1 1</scale>
-        <model name='Construction Cone'>
-          <pose>3 3 0 0 -0 0</pose>
-          <scale>1 1 1</scale>
-          <link name='link'>
-            <pose>3 3 0 0 -0 0</pose>
-            <velocity>0 0 0 0 -0 0</velocity>
-            <acceleration>0 0 0 0 -0 0</acceleration>
-            <wrench>0 0 0 0 -0 0</wrench>
-          </link>
-        </model>
+        <link name='link'>
+          <pose>7.5 7.5 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
       </model>
       <model name='ground_plane'>
         <pose>0 0 0 0 -0 0</pose>
@@ -739,66 +633,105 @@
         <pose>0 0 10 0 -0 0</pose>
       </light>
     </state>
+    <model name='Goal'>
+      <link name='link'>
+        <self_collide>0</self_collide>
+        <inertial>
+          <pose>0 0 0 0 -0 0</pose>
+          <inertia>
+            <ixx>1</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>1</iyy>
+            <iyz>0</iyz>
+            <izz>1</izz>
+          </inertia>
+          <mass>1</mass>
+        </inertial>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+        <pose>0 0 0 0 -0 0</pose>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <scale>5 5 5</scale>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <shader type='pixel'/>
+          </material>
+          <pose>0 0 0 0 -0 0</pose>
+          <transparency>0</transparency>
+          <cast_shadows>1</cast_shadows>
+        </visual>
+        <collision name='collision'>
+          <laser_retro>0</laser_retro>
+          <max_contacts>10</max_contacts>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>/usr/share/gazebo-11/models/construction_cone/meshes/construction_cone.dae</uri>
+              <scale>5 5 5</scale>
+            </mesh>
+          </geometry>
+          <surface>
+            <friction>
+              <ode>
+                <mu>1</mu>
+                <mu2>1</mu2>
+                <fdir1>0 0 0</fdir1>
+                <slip1>0</slip1>
+                <slip2>0</slip2>
+              </ode>
+              <torsional>
+                <coefficient>1</coefficient>
+                <patch_radius>0</patch_radius>
+                <surface_radius>0</surface_radius>
+                <use_patch_radius>1</use_patch_radius>
+                <ode>
+                  <slip>0</slip>
+                </ode>
+              </torsional>
+            </friction>
+            <bounce>
+              <restitution_coefficient>0</restitution_coefficient>
+              <threshold>1e+06</threshold>
+            </bounce>
+            <contact>
+              <collide_without_contact>0</collide_without_contact>
+              <collide_without_contact_bitmask>1</collide_without_contact_bitmask>
+              <collide_bitmask>1</collide_bitmask>
+              <ode>
+                <soft_cfm>0</soft_cfm>
+                <soft_erp>0.2</soft_erp>
+                <kp>1e+13</kp>
+                <kd>1</kd>
+                <max_vel>0.01</max_vel>
+                <min_depth>0</min_depth>
+              </ode>
+              <bullet>
+                <split_impulse>1</split_impulse>
+                <split_impulse_penetration_threshold>-0.01</split_impulse_penetration_threshold>
+                <soft_cfm>0</soft_cfm>
+                <soft_erp>0.2</soft_erp>
+                <kp>1e+13</kp>
+                <kd>1</kd>
+              </bullet>
+            </contact>
+          </surface>
+        </collision>
+      </link>
+      <static>0</static>
+      <allow_auto_disable>1</allow_auto_disable>
+      <pose>7.49076 7.54019 -0 0 -1e-06 0</pose>
+    </model>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose>0.05966 -11.084 11.1916 0 0.713798 1.63753</pose>
+        <pose>4.70751 5.14836 19.1578 3.3e-05 1.5698 1.56808</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
     </gui>
-    <model name='Goal'>
-      <model name='Construction Cone'>
-        <link name='link'>
-          <collision name='collision'>
-            <geometry>
-              <mesh>
-                <scale>5 5 5</scale>
-                <uri>model://construction_cone/meshes/construction_cone.dae</uri>
-              </mesh>
-            </geometry>
-            <max_contacts>10</max_contacts>
-            <surface>
-              <contact>
-                <ode/>
-              </contact>
-              <bounce/>
-              <friction>
-                <torsional>
-                  <ode/>
-                </torsional>
-                <ode/>
-              </friction>
-            </surface>
-          </collision>
-          <visual name='visual'>
-            <geometry>
-              <mesh>
-                <scale>5 5 5</scale>
-                <uri>model://construction_cone/meshes/construction_cone.dae</uri>
-              </mesh>
-            </geometry>
-          </visual>
-          <self_collide>0</self_collide>
-          <inertial>
-            <pose>0 0 0 0 -0 0</pose>
-            <inertia>
-              <ixx>1</ixx>
-              <ixy>0</ixy>
-              <ixz>0</ixz>
-              <iyy>1</iyy>
-              <iyz>0</iyz>
-              <izz>1</izz>
-            </inertia>
-            <mass>1</mass>
-          </inertial>
-          <enable_wind>0</enable_wind>
-          <kinematic>0</kinematic>
-        </link>
-        <pose>-1e-06 -3e-06 0 0 -0 0</pose>
-      </model>
-      <static>0</static>
-      <allow_auto_disable>0</allow_auto_disable>
-      <pose>3.30375 2.92031 0 0 -0 0</pose>
-    </model>
   </world>
 </sdf>
