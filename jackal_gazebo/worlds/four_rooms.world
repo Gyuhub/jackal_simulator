@@ -748,10 +748,10 @@
     </gui>
     <!-- If you want to build a map from gazebo, please build the 'gazebo_2d_map_plugin' of 'Gyuhub' first -->
     <!-- <plugin name='gazebo_occupancy_map' filename='libgazebo_2d_map_plugin.so'>
-      <map_resolution>0.05</map_resolution>
+      <map_resolution>0.25</map_resolution>
       <map_origin>5.1 5.1 0.0</map_origin>
-      <map_size_x>10.2</map_size_x>
-      <map_size_y>10.2</map_size_y>
+      <map_size_x>10.25</map_size_x>
+      <map_size_y>10.25</map_size_y>
       <init_robot_x>2.6</init_robot_x>
       <init_robot_y>2.6</init_robot_y>
     </plugin> -->
