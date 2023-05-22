@@ -720,8 +720,8 @@
           <link name='link'>
             <pose>7.5 7.5 -9e-06 -1.2e-05 1.3e-05 0</pose>
             <velocity>0 0 0 0 -0 0</velocity>
-            <acceleration>0 0 -9.8 0 -0 0</acceleration>
-            <wrench>0 0 -9.8 0 -0 0</wrench>
+            <acceleration>0 0 0 0 -0 0</acceleration>
+            <wrench>0 0 0 0 -0 0</wrench>
           </link>
         </model>
       </model>
@@ -758,27 +758,6 @@
     <model name='Goal'>
       <model name='Construction Cone'>
         <link name='link'>
-          <collision name='collision'>
-            <geometry>
-              <mesh>
-                <scale>2 2 2</scale>
-                <uri>model://construction_cone/meshes/construction_cone.dae</uri>
-              </mesh>
-            </geometry>
-            <max_contacts>10</max_contacts>
-            <surface>
-              <contact>
-                <ode/>
-              </contact>
-              <bounce/>
-              <friction>
-                <torsional>
-                  <ode/>
-                </torsional>
-                <ode/>
-              </friction>
-            </surface>
-          </collision>
           <visual name='visual'>
             <geometry>
               <mesh>
@@ -787,21 +766,7 @@
               </mesh>
             </geometry>
           </visual>
-          <self_collide>0</self_collide>
-          <inertial>
-            <pose>0 0 0 0 -0 0</pose>
-            <inertia>
-              <ixx>1</ixx>
-              <ixy>0</ixy>
-              <ixz>0</ixz>
-              <iyy>1</iyy>
-              <iyz>0</iyz>
-              <izz>1</izz>
-            </inertia>
-            <mass>1</mass>
-          </inertial>
-          <enable_wind>0</enable_wind>
-          <kinematic>0</kinematic>
+          <gravity>0</gravity>
         </link>
         <pose>1e-06 -1e-06 -0 0 -0 0</pose>
       </model>
