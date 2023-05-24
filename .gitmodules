@@ -7,3 +7,6 @@
 [submodule "gazebo_ros_2d_map_plugin"]
 	path = gazebo_ros_2d_map_plugin
 	url = https://github.com/Gyuhub/gazebo_ros_2d_map_plugin.git
+[submodule "velodyne"]
+	path = velodyne
+	url = https://github.com/ros-drivers/velodyne.git
